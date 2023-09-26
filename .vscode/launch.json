@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TextEditor",
+            "request": "launch",
+            "mainClass": "src.TextEditor",
+            "vmArgs": "--module-path C:\\Users\\mrkrp\\JavaFX\\javafx-sdk-21\\lib --add-modules javafx.controls",
+            "projectName": "TextEditor_ad00928e"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
